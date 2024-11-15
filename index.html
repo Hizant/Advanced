@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/normalyze.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <title>Advanced</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container headerTop__container">
+            <div class="headerTop row">
+                <img class="headerTop__img col-xxl-4 col-xl-4 col-lg-3 col-md-2" src="./images/logo.jpg" alt="Логотип компании Advanced">
+                <div class="headerTopRight col-xxl-8 col-xl-8 col-lg-9 col-md-10">
+                    <div class="headerTopRight__local">
+                        <svg class="headerTopRight__svg" width="11" height="11" viewBox="0 0 11 11" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.4999 0C3.3549 0 1.6499 1.705 1.6499 3.85C1.6499 6.71 5.4999 11 5.4999 11C5.4999 11 9.3499 6.71 9.3499 3.85C9.3499 1.705 7.6449 0 5.4999 0ZM5.4999 5.225C4.7299 5.225 4.1249 4.62 4.1249 3.85C4.1249 3.08 4.7299 2.475 5.4999 2.475C6.2699 2.475 6.8749 3.08 6.8749 3.85C6.8749 4.62 6.2699 5.225 5.4999 5.225Z"
+                                fill="#7A7A7A" />
+                        </svg>
+                        <span>Slokas 52, Riga</span>
+                    </div>
+                    <ul class="socialIcon__list">
+                        <li class="socialIcon__item">
+                            <img src="./images/social/facebook.svg" alt="facebook">
+                        </li>
+                        <li class="socialIcon__item">
+                            <img src="./images/social/instagram.svg" alt="Instagram">
+                        </li>
+                        <li class="socialIcon__item">
+                            <img src="./images/social/tiktok.svg" alt="Tiktok">
+                        </li>
+                        <li class="socialIcon__item">
+                            <img src="./images/social/youtube.svg" alt="Youtube">
+                        </li>
+                    </ul>
+                    <div class="headerTopRight__text">
+                        <a class="headerTopRight__phone" href="#">+371 26858674</a>
+                        <span class="headerTopRight__span">Обслуживание клиентов</span>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle headerTopRight__btn dropdown__item" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            RU
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown__item" href="#">EN</a></li>
+                            <li><a class="dropdown__item" href="#">LV</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="headerBotom">
+            <div class="container headerBotom__container">
+                <div class="row">
+                    <nav class="nav headerBotom__nav col-xxl-10 col-xl-10 col-md-10 col-lg-9">
+                        <ul class="headerBotom__list">
+                            <li class="headerBotom__item">Главная</li>
+                            <li class="headerBotom__item"><a href="#">Продажа авто</a></li>
+                            <li class="headerBotom__item"><a href="#">Покупка авто</a></li>
+                            <li class="headerBotom__item"><a href="#">Реализация</a></li>
+                            <li class="headerBotom__item"><a href="#">Почему мы</a></li>
+                            <li class="headerBotom__item"><a href="#">О нас</a></li>
+                            <li class="headerBotom__item"><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <button class="btnNew headerBotom__btn col-xxl-2 col-xl-2 col-md-2">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="container banner__container">
+                <div class="banner__wrapper">
+                    <h3 class="banner__title">
+                        ПРОДАЖА ПРОВЕРЕННЫХ Б/У АВТОМОБИЛЕЙ</br> ИЗ ЕВРОПЫ
+                    </h3>
+                    <p class="banner__descr">
+                        Послепродажное обслуживание и гарантия.</br>Станьте нашим клиентом уже сегодня
+                    </p>
+                    <button class="btnNew banner__btn">
+                        Подробнее
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="carSales">
+            <div class="container">
+                <h3 class="carSales__title">
+                    Продажа авто /Найдено 576 авто
+                </h3>
+                <div class="carSales__descr">
+                    <div class="carSales__sortLeft carSales__sort">
+                        <p>Сортировать: <span>по умолчанию</span></p>
+                        <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.43223 1.13559L3.20223 4.99809C3.11233 5.15379 2.88753 5.15379 2.79763 4.99809L0.56763 1.13559C0.47773 0.979887 0.59013 0.785187 0.76993 0.785187L5.22993 0.785187C5.40973 0.785187 5.52213 0.979787 5.43223 1.13559Z"
+                                fill="#646464" />
+                            <path
+                                d="M3.20211 4.99809L5.43211 1.13559C5.44551 1.11229 5.45311 1.08819 5.45801 1.06399L3.30211 4.79809C3.21221 4.95379 2.98741 4.95379 2.89751 4.79809L0.667508 0.935589C0.647408 0.900689 0.638708 0.863989 0.637408 0.827789C0.543608 0.893389 0.503108 1.02389 0.567508 1.13559L2.79751 4.99809C2.88741 5.15379 3.11221 5.15379 3.20211 4.99809Z"
+                                fill="#646464" />
+                            <path
+                                d="M5.43223 1.13559L3.20223 4.99809C3.11233 5.15379 2.88753 5.15379 2.79763 4.99809L0.56763 1.13559C0.47773 0.979887 0.59013 0.785187 0.76993 0.785187L5.22993 0.785187C5.40973 0.785187 5.52213 0.979787 5.43223 1.13559Z"
+                                stroke="#646464" stroke-miterlimit="10" />
+                        </svg>
+                    </div>
+                    <div class="carSales__sortRicht carSales__sort">
+                        <p>Отображать: <span>по 32</span></p>
+                        <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.43223 1.13559L3.20223 4.99809C3.11233 5.15379 2.88753 5.15379 2.79763 4.99809L0.56763 1.13559C0.47773 0.979887 0.59013 0.785187 0.76993 0.785187L5.22993 0.785187C5.40973 0.785187 5.52213 0.979787 5.43223 1.13559Z"
+                                fill="#646464" />
+                            <path
+                                d="M3.20211 4.99809L5.43211 1.13559C5.44551 1.11229 5.45311 1.08819 5.45801 1.06399L3.30211 4.79809C3.21221 4.95379 2.98741 4.95379 2.89751 4.79809L0.667508 0.935589C0.647408 0.900689 0.638708 0.863989 0.637408 0.827789C0.543608 0.893389 0.503108 1.02389 0.567508 1.13559L2.79751 4.99809C2.88741 5.15379 3.11221 5.15379 3.20211 4.99809Z"
+                                fill="#646464" />
+                            <path
+                                d="M5.43223 1.13559L3.20223 4.99809C3.11233 5.15379 2.88753 5.15379 2.79763 4.99809L0.56763 1.13559C0.47773 0.979887 0.59013 0.785187 0.76993 0.785187L5.22993 0.785187C5.40973 0.785187 5.52213 0.979787 5.43223 1.13559Z"
+                                stroke="#646464" stroke-miterlimit="10" />
+                        </svg>
+                    </div>
+                </div>
+                <ul class="carSales__list row">
+                    <li class="carSales__item col-xl-3 col-lg-3 col-sm-6">
+                        <div class="card">
+                            <img class="card__img" src="./images/auto/bmw320.png" alt="bmw320">
+                            <div class="card__text">
+                                <div class="card__title">
+                                    BMW 320d (135kw)
+                                </div>
+                                <div class="card__descr">
+                                    2014, 223 т. км., Автомат, 2.0 TDI
+                                </div>
+                                <div class="card__price">
+                                    12 500 EUR
+                                </div>
+                                <div class="card__list">
+                                    <div class="card__item card__release">
+                                        <p class="card__itemTitle">
+                                            Год выпуска
+                                        </p>
+                                        <p class="card__itemInfo">
+                                            223 326
+                                        </p>
+                                    </div>
+                                    <div class="card__item card__article">
+                                        <p class="card__itemTitle">
+                                            Пробег
+                                        </p>
+                                        <p class="card__itemInfo">
+                                            223 326
+                                        </p>
+                                    </div>
+                                    <div class="card__item card__mileage">
+                                        <p class="card__itemTitle">
+                                            Артикул
+                                        </p>
+                                        <p class="card__itemInfo">
+                                            223 326
+                                        </p>
+                                    </div>
+                                    <div class="card__item card__sale">
+                                        <p class="card__itemTitle">
+                                            Тип продажи
+                                        </p>
+                                        <p class="card__itemInfo">Свой авто</p>
+                                    </div>
+                                </div>
+                                <button class="btnNew card__btn">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carSales__item col-xl-3 col-lg-3 col-sm-6">
+                        <div class="card">
+                            <img class="card__img" src="./images/auto/bmw320.png" alt="bmw320">
+                            <div class="card__text">
+                                <div class="card__title">
+                                    BMW 320d (135kw)
+                                </div>
+                                <div class="card__descr">
+                                    2014, 223 т. км., Автомат, 2.0 TDI
+                                </div>
+                                <div class="card__price">
+                                    12 500 EUR
+                                </div>
+                                <div class="card__list">
+                                    <div class="card__item card__release">
+                                        <p class="card__itemTitle">
+                                            Год выпуска
+                                        </p>
+                                        <p class="card__itemInfo">
+                                            223 326
+                                        </p>
+                                    </div>
+                                    <div class="card__item card__article">
+                                        <p class="card__itemTitle">
+                                            Пробег
+                                        </p>
+                                        <p class="card__itemInfo">
+                                            223 326
+                                        </p>
+                                    </div>
+                                    <div class="card__item card__mileage">
+                                        <p class="card__itemTitle">
+                                            Артикул
+                                        </p>
+                                        <p class="card__itemInfo">
+                                            223 326
+                                        </p>
+                                    </div>
+                                    <div class="card__item card__sale">
+                                        <p class="card__itemTitle">
+                                            Тип продажи
+                                        </p>
+                                        <p class="card__itemInfo">Свой авто</p>
+                                    </div>
+                                </div>
+                                <button class="btnNew card__btn">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carSales__item col-xl-3 col-lg-3 col-sm-6">
+                        <div class="card">
+                            <img class="card__img" src="./images/auto/bmw320.png" alt="bmw320">
+                            <div class="card__text">
+                                <div class="card__title">
+                                    BMW 320d (135kw)
+                                </div>
+                                <div class="card__descr">
+                                    2014, 223 т. км., Автомат, 2.0 TDI
+                                </div>
+                                <div class="card__price">
+                                    12 500 EUR
+                                </div>
+                                <div class="card__list">
+                                    <div class="card__item card__release">
+                                        <p class="card__itemTitle">
+                                            Год выпуска
+                                        </p>
+                                        <p class="card__itemInfo">
+                                            223 326
+                                        </p>
+                                    </div>
+                                    <div class="card__item card__article">
+                                        <p class="card__itemTitle">
+                                            Пробег
+                                        </p>
+                                        <p class="card__itemInfo">
+                                            223 326
+                                        </p>
+                                    </div>
+                                    <div class="card__item card__mileage">
+                                        <p class="card__itemTitle">
+                                            Артикул
+                                        </p>
+                                        <p class="card__itemInfo">
+                                            223 326
+                                        </p>
+                                    </div>
+                                    <div class="card__item card__sale">
+                                        <p class="card__itemTitle">
+                                            Тип продажи
+                                        </p>
+                                        <p class="card__itemInfo">Свой авто</p>
+                                    </div>
+                                </div>
+                                <button class="btnNew card__btn">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carSales__item col-xl-3 col-lg-3 col-sm-6">
+                        <div class="card">
+                            <img class="card__img" src="./images/auto/bmw320.png" alt="bmw320">
+                            <div class="card__text">
+                                <div class="card__title">
+                                    BMW 320d (135kw)
+                                </div>
+                                <div class="card__descr">
+                                    2014, 223 т. км., Автомат, 2.0 TDI
+                                </div>
+                                <div class="card__price">
+                                    12 500 EUR
+                                </div>
+                                <div class="card__list">
+                                    <div class="card__item card__release">
+                                        <p class="card__itemTitle">
+                                            Год выпуска
+                                        </p>
+                                        <p class="card__itemInfo">
+                                            223 326
+                                        </p>
+                                    </div>
+                                    <div class="card__item card__article">
+                                        <p class="card__itemTitle">
+                                            Пробег
+                                        </p>
+                                        <p class="card__itemInfo">
+                                            223 326
+                                        </p>
+                                    </div>
+                                    <div class="card__item card__mileage">
+                                        <p class="card__itemTitle">
+                                            Артикул
+                                        </p>
+                                        <p class="card__itemInfo">
+                                            223 326
+                                        </p>
+                                    </div>
+                                    <div class="card__item card__sale">
+                                        <p class="card__itemTitle">
+                                            Тип продажи
+                                        </p>
+                                        <p class="card__itemInfo">Свой авто</p>
+                                    </div>
+                                </div>
+                                <button class="btnNew card__btn">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="buyCarForm">
+            <div class="container">
+                <div class="formBlock">
+                    <div class="formBlock__block">
+                        <h4 class="formBlock__title">
+                            Покупка вашего авто
+                        </h4>
+                        <p class="formBlock__descr">
+                            Если вы хотите предложить нам свой автомобиль для выкупа, пожалуйста заполните форму, которая
+                            представлена ниже.
+                        </p>
+                        <p class="formBlock__article">
+                            * Перед выкупом, мы проверяем все автомобили на выезде или у нас в автосервисе.
+                        </p>
+                    </div>
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="radio-group">
+                            <label class="custom-radio">
+                                <input type="radio" name="option" value="123" required>
+                                <span class="radio-btn"></span>
+                                <p>Я продавец</p>
+                            </label>
+                            <label class="custom-radio">
+                                <input type="radio" name="option" value="456">
+                                <span class="radio-btn"></span>
+                                <p>Я автодиллер</p>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-input" type="text" placeholder="Ваше имя" name="first-name" required>
+                            <input class="form-input" type="text" placeholder="Ваша Фамилия" name="last-name" required>
+                        </div>
+                        <div class="form-textarea">
+                            <textarea placeholder="Комментарий" name="comment" rows="4" required></textarea>
+                        </div>
+                        <div class="form-btn">
+                            <div class="capture">Место для капчи</div>
+                            <button class="btnNew formBtn" type="submit">Подобрать</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="implementation">
+            <div class="container">
+                <h4 class="implementation__title">
+                    Реализация
+                </h4>
+                <p class="implementation__descr">
+                    Реализация вашего автомобиля у нас на площадке.
+                </p>
+                <p class="implementation__article">
+                    Что входит в эту услугу:
+                </p>
+                <div class="implementation__block">
+                    <ul class="implementation__list">
+                        <li class="implementation__item">
+                            <div class="iWrapper iWrapper__carCleaning">
+                            </div>
+                            <div class="iCard__text">
+                                <p class="iTitle">Чистка авто</p>
+                                <p class="iDescr">подготовка к фотосессии</p>
+                            </div>
+                        </li>
+                        <li class="implementation__item">
+                            <div class="iWrapper iWrapper__announs">
+                            </div>
+                            <div class="iCard__text">
+                                <p class="iTitle">Фотосессия автомобиля</p>
+                                <p class="iDescr">с видео обзором</p>
+                            </div>
+                        </li>
+                        <li class="implementation__item">
+                            <div class="iWrapper iWrapper__photo">
+                            </div>
+                            <div class="iCard__text">
+                                <p class="iTitle">Показываем автомобиль клиенту</p>
+                                <p class="iDescr">тест драйв и показ на подъемнике</p>
+                            </div>
+                        </li>
+                        <li class="implementation__item">
+                            <div class="iWrapper iWrapper__car">
+                            </div>
+                            <div class="iCard__text">
+                                <p class="iTitle">Профессиональный текст</p>
+                                <p class="iDescr">Для вашего объявления</p>
+                            </div>
+                        </li>
+                        <li class="implementation__item">
+                            <div class="iWrapper iWrapper__text">
+                            </div>
+                            <div class="iCard__text">
+                                <p class="iTitle">Все переговоры с клиентом</p>
+                                <p class="iDescr">подготовка сделки</p>
+                            </div>
+                        </li>
+                        <li class="implementation__item">
+                            <div class="iWrapper iWrapper__negotiation">
+                            </div>
+                            <div class="iCard__text">
+                                <p class="iTitle">Чистка авто</p>
+                                <p class="iDescr">подготовка к фотосессии</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="implementation__footnote">
+                    <ul class="implementation__fList">
+                        <li class="implementation__fItem">* Также по этой услуге, приглашаем к сотрудничеству авто
+                            продавцов. На стоянке можем разместить до 15 авто.</li>
+                        <li class="implementation__fItem">* Автомобили мы берем на реализацию после быстрого осмотра нашим
+                            специалистом.</li>
+                        <li class="implementation__fItem">* По всем вопросам, обращайтесь пожалуйста по телефону или по эл.
+                            почте.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

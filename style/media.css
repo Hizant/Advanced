@@ -1,0 +1,260 @@
+@media (min-width:1200px) and (max-width: 1600px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    .headerBotom__list {
+        gap: 35px;
+    }
+
+    .headerBotom__item {
+        font-size: 11px;
+    }
+
+    .headerBotom__btn {
+        font-size: 11px;
+    }
+
+    .card {
+        padding: 20px 10px;
+        min-height: 450px;
+    }
+
+    .card__title,
+    .card__descr,
+    .card__price {
+        flex: 12;
+    }
+
+    .card__itemTitle,
+    .card__itemInfo {
+        font-size: 8px;
+    }
+
+    .card__btn {
+        padding: 15px 20px;
+    }
+
+    .card__item {
+        padding-left: 27px;
+        background-position: 0 3px;
+    }
+
+    .formBlock {
+        padding: 40px;
+    }
+
+    .formBlock__block {
+        max-width: 480px;
+    }
+
+    .formBlock__title {
+        font-size: 28px;
+    }
+
+    .formBlock__descr {
+        font-size: 12px;
+    }
+
+    .formBlock__descr {
+        margin-bottom: 10px;
+    }
+
+    .contact-form {
+        max-width: 515px;
+    }
+
+    .formBtn {
+        width: max-content;
+    }
+
+    .formBlock::after {
+        width: 37%;
+    }
+
+    .implementation__fItem  {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:1199px) {
+    .container {
+        max-width: 860px;
+    }
+
+    .headerBotom__list {
+        gap: 15px;
+    }
+
+    .headerBotom__item {
+        font-size: 11px;
+        ;
+    }
+
+    .headerBotom__btn {
+        font-size: 11px;
+        padding: 17px 5px;
+    }
+
+    .card {
+        padding: 10px;
+        min-height: 380px;
+    }
+
+    .card__title,
+    .card__descr,
+    .card__price {
+        font-size: 12px;
+    }
+
+    .card__descr {
+        margin-bottom: 6px;
+    }
+
+    .card__itemTitle {
+        font-size: 9px;
+    }
+
+    .card__itemInfo {
+        font-size: 8px;
+    }
+
+    .card__item {
+        padding-left: 0;
+    }
+
+    .card__release {
+        background-image: none;
+    }
+
+    .card__article {
+        background-image: none;
+    }
+
+    .card__mileage {
+        background-image: none;
+    }
+
+    .card__sale {
+        background-image: none;
+    }
+
+    .card__btn {
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+
+    .formBlock::after {
+        display: none;
+    }
+
+    .implementation__fItem  {
+        font-size: 12px;
+    }
+
+    .iTitle {
+        font-size: 12px;
+    }
+
+    .iDescr {
+        font-size: 12px;
+    }
+}
+
+
+    @media (max-width: 991px) {
+        .headerBotom__item {
+            font-size: 10px;
+        }
+
+        .headerBotom__list {
+            gap: 20px;
+        }
+
+        .headerBotom__btn {
+            font-size: 10px;
+        }
+
+        .headerTopRight__local {
+            margin-right: 20px;
+        }
+
+        .headerTopRight__text {
+            margin-right: 20px;
+        }
+
+        .headerTopRight__local,
+        .socialIcon__list {
+            margin-right: 15px;
+        }
+
+        .carSales__title {
+            font-size: 30px;
+        }
+
+        .card__list {
+            display: block;
+            columns: 2;
+        }
+
+        .formBtn {
+            padding: 15px 45px;
+            width: max-content;
+        }
+
+        .card__item {
+            padding-left: 30px;
+        }
+
+        .card__release {
+            background-image: url(../images/icon/calendar.svg);
+        }
+        
+        .card__mileage {
+            background-image: url(../images/icon/speed.svg);
+        }
+        
+        .card__article {
+            background-image: url(../images/icon/article.svg);
+        }
+        
+        .card__sale {
+            background-image: url(../images/icon/sales.svg);
+        }
+
+        .card__title,
+        .card__descr,
+        .card__price {
+            font-size: 14px;
+        }
+    
+        .card__descr {
+            margin-bottom: 10px;
+        }
+    
+        .card__itemTitle {
+            font-size: 12px;
+        }
+    
+        .card__itemInfo {
+            font-size: 12px;
+        }
+
+        .card__item {
+            width: 100%;
+        }
+
+        .implementation__fItem {
+            font-size: 10px;
+        }
+
+        .iTitle {
+            font-size: 10px;
+        }
+
+        .iDescr {
+            font-size: 10px;
+        }
+
+    }
