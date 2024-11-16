@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./style/normalyze.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/media.css">
@@ -15,9 +15,12 @@
 <body>
     <header class="header">
         <div class="container headerTop__container">
-            <div class="headerTop row">
-                <img class="headerTop__img col-xxl-4 col-xl-4 col-lg-3 col-md-2" src="./images/logo.jpg" alt="Логотип компании Advanced">
-                <div class="headerTopRight col-xxl-8 col-xl-8 col-lg-9 col-md-10">
+            <div class="headerTop">
+                <img class="headerTop__img" src="./images/logo.jpg"
+                    alt="Логотип компании Advanced">
+                    <!-- col-xxl-4 col-xl-4 col-lg-3 col-md-2 -->
+                <div class="headerTopRight">
+                    <!-- col-xxl-8 col-xl-8 col-lg-9 col-md-10 -->
                     <div class="headerTopRight__local">
                         <svg class="headerTopRight__svg" width="11" height="11" viewBox="0 0 11 11" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -50,18 +53,18 @@
                             data-bs-toggle="dropdown" aria-expanded="false">
                             RU
                         </button>
-                        <ul class="dropdown-menu">
+                        <!-- <ul class="dropdown-menu">
                             <li><a class="dropdown__item" href="#">EN</a></li>
                             <li><a class="dropdown__item" href="#">LV</a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>
         </div>
         <div class="headerBotom">
             <div class="container headerBotom__container">
-                <div class="row">
-                    <nav class="nav headerBotom__nav col-xxl-10 col-xl-10 col-md-10 col-lg-9">
+                    <nav class="nav headerBotom__nav ">
+                        <!-- col-xxl-10 col-xl-10 col-md-10 col-lg-9 -->
                         <ul class="headerBotom__list">
                             <li class="headerBotom__item">Главная</li>
                             <li class="headerBotom__item"><a href="#">Продажа авто</a></li>
@@ -71,9 +74,10 @@
                             <li class="headerBotom__item"><a href="#">О нас</a></li>
                             <li class="headerBotom__item"><a href="#">Контакты</a></li>
                         </ul>
+                        <button class="btnNew headerBotom__btn">Заказать звонок</button>
                     </nav>
-                    <button class="btnNew headerBotom__btn col-xxl-2 col-xl-2 col-md-2">Заказать звонок</button>
-                </div>
+
+                    <!-- col-xxl-2 col-xl-2 col-md-2 -->
             </div>
         </div>
     </header>
@@ -82,10 +86,10 @@
             <div class="container banner__container">
                 <div class="banner__wrapper">
                     <h3 class="banner__title">
-                        ПРОДАЖА ПРОВЕРЕННЫХ Б/У АВТОМОБИЛЕЙ</br> ИЗ ЕВРОПЫ
+                        ПРОДАЖА ПРОВЕРЕННЫХ Б/У АВТОМОБИЛЕЙ<br> ИЗ ЕВРОПЫ
                     </h3>
                     <p class="banner__descr">
-                        Послепродажное обслуживание и гарантия.</br>Станьте нашим клиентом уже сегодня
+                        Послепродажное обслуживание и гарантия.<br>Станьте нашим клиентом уже сегодня
                     </p>
                     <button class="btnNew banner__btn">
                         Подробнее
@@ -128,8 +132,8 @@
                         </svg>
                     </div>
                 </div>
-                <ul class="carSales__list row">
-                    <li class="carSales__item col-xl-3 col-lg-3 col-sm-6">
+                <ul class="carSales__list">
+                    <li class="carSales__item">
                         <div class="card">
                             <img class="card__img" src="./images/auto/bmw320.png" alt="bmw320">
                             <div class="card__text">
@@ -180,7 +184,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="carSales__item col-xl-3 col-lg-3 col-sm-6">
+                    <li class="carSales__item">
                         <div class="card">
                             <img class="card__img" src="./images/auto/bmw320.png" alt="bmw320">
                             <div class="card__text">
@@ -231,7 +235,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="carSales__item col-xl-3 col-lg-3 col-sm-6">
+                    <li class="carSales__item">
                         <div class="card">
                             <img class="card__img" src="./images/auto/bmw320.png" alt="bmw320">
                             <div class="card__text">
@@ -282,7 +286,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="carSales__item col-xl-3 col-lg-3 col-sm-6">
+                    <li class="carSales__item">
                         <div class="card">
                             <img class="card__img" src="./images/auto/bmw320.png" alt="bmw320">
                             <div class="card__text">
@@ -344,7 +348,8 @@
                             Покупка вашего авто
                         </h4>
                         <p class="formBlock__descr">
-                            Если вы хотите предложить нам свой автомобиль для выкупа, пожалуйста заполните форму, которая
+                            Если вы хотите предложить нам свой автомобиль для выкупа, пожалуйста заполните форму,
+                            которая
                             представлена ниже.
                         </p>
                         <p class="formBlock__article">
@@ -379,7 +384,7 @@
                 </div>
             </div>
         </section>
-        <section class="implementation">
+        <!-- <section class="implementation">
             <div class="container">
                 <h4 class="implementation__title">
                     Реализация
@@ -446,14 +451,135 @@
                     <ul class="implementation__fList">
                         <li class="implementation__fItem">* Также по этой услуге, приглашаем к сотрудничеству авто
                             продавцов. На стоянке можем разместить до 15 авто.</li>
-                        <li class="implementation__fItem">* Автомобили мы берем на реализацию после быстрого осмотра нашим
+                        <li class="implementation__fItem">* Автомобили мы берем на реализацию после быстрого осмотра
+                            нашим
                             специалистом.</li>
-                        <li class="implementation__fItem">* По всем вопросам, обращайтесь пожалуйста по телефону или по эл.
+                        <li class="implementation__fItem">* По всем вопросам, обращайтесь пожалуйста по телефону или по
+                            эл.
                             почте.</li>
                     </ul>
                 </div>
             </div>
         </section>
+        <section class="whyAs">
+            <div class="container whyAs__container">
+                <h4 class="whyAs__title">
+                    Почему мы
+                </h4>
+                <p class="whyAs__descr">
+                    Почему выбирают нас
+                </p>
+                <div class="whyAs__block container-fluid">
+                    <ul class="whyAs__list row">
+                        <li class="whyAs__item whyAs__item1 col-xl-4">
+                            <div class="whyAs__numbers whyAs__numbers1">
+                            </div>
+                            <p class="whyAs__article">Большой опыт в работе с автомобилями</p>
+                        </li>
+                        <li class="whyAs__item whyAs__item2 col-xl-4">
+                            <div class="whyAs__numbers whyAs__numbers2">
+                            </div>
+                            <p class="whyAs__article">Большой опыт в работе с автомобилями</p>
+                        </li>
+                        <li class="whyAs__item whyAs__item3 col-xl-4">
+                            <div class="whyAs__numbers whyAs__numbers3">
+                            </div>
+                            <p class="whyAs__article">Большой опыт в работе с автомобилями</p>
+                        </li>
+                        <li class="whyAs__item whyAs__item4 col-xl-4">
+                            <div class="whyAs__numbers whyAs__numbers4">
+                            </div>
+                            <p class="whyAs__article">Большой опыт в работе с автомобилями</p>
+                        </li>
+                        <li class="whyAs__item whyAs__item5 col-xl-4">
+                            <div class="whyAs__numbers whyAs__numbers5">
+                            </div>
+                            <p class="whyAs__article">Большой опыт в работе с автомобилями</p>
+                        </li>
+                        <li class="whyAs__item whyAs__item6 col-xl-4">
+                            <div class="whyAs__numbers whyAs__numbers6">
+                            </div>
+                            <p class="whyAs__article">Большой опыт в работе с автомобилями</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="abotUs">
+            <div class="container abotUs__container">
+                <h4 class="aboutUs__title"> О нас</h4>
+                <div class="row">
+                    <div class="aboutUs__leftBlock col-8">
+                        <p class="aboutUs__text">
+                            Advanced&nbsp;&mdash; это команда специалистов в&nbsp;сфере продажи, ремонта автомобилей
+                            с&nbsp;15-ти летнем опытом. Данное направление является частью компании BP&nbsp;Auto.
+                            Так как мы&nbsp;сами начали с&nbsp;покупке, продажи автомобилей, еще в&nbsp;далеком
+                            2012&nbsp;году, мы&nbsp;хорошо понимаем рынок, тенденции на&nbsp;нем и&nbsp;формирования
+                            цен,
+                            но&nbsp;помимо, продажи авто, имеем также свой автосервис, где ремонтируем автомобили для
+                            своих
+                            клиентов, таким образом, мы&nbsp;покрываем и&nbsp;техническую часть.<br>
+                            Это и&nbsp;делает наше предложение интересным и&nbsp;конкурентным. У&nbsp;нас не&nbsp;только
+                            можно приобрести хороший, проверенный б/у автомобиль но&nbsp;и&nbsp;обслуживать его дальше
+                            у&nbsp;нас в&nbsp;автосервисе. Есть также и&nbsp;платная гарантия на&nbsp;купленные
+                            у&nbsp;нас
+                            автомобили.<br>
+                            Помимо покупке автомобиля, мы&nbsp;также можем выкупить ваш старый авто, можно сделать
+                            трейд-ин
+                            или оставить его у&nbsp;нас на&nbsp;реализацию.<br>
+                            Принцип одного партнера или номера в&nbsp;записной книжке, который поможет вам, решить все
+                            повседневные автомобильные вопросы. Все в&nbsp;одном месте, с&nbsp;хорошим отношением
+                            и&nbsp;по&nbsp;адекватным ценам.<br>
+                            Это точно будет, что-то новое для вас и&nbsp;мы&nbsp;надеемся наш подход вам понравится.
+                            Будем рады долгосрочному сотрудничеству с&nbsp;новыми клиентами.
+                            По&nbsp;всем вопросам, пожалуйста обращайтесь звоните. Все контакты есть на&nbsp;сайте.
+                        </p>
+                        <div class="aboutUs__bot">
+                            <ul class="aboutUs__botList">
+                                <li class="aboutUs__botItem aboutUs__botItem1">
+                                    <span class="aboutUs__botText">
+                                        Проверка авто и подбор
+                                    </span>
+                                </li>
+                                <li class="aboutUs__botItem aboutUs__botItem2">
+                                    <span class="aboutUs__botText">
+                                        Автосервис
+                                    </span>
+                                </li>
+                                <li class="aboutUs__botItem aboutUs__botItem3">
+                                    <span class="aboutUs__botText">
+                                        Доставка авто
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="aboutUs__rightBlock col-4">
+                        <ul class="aboutUs__list">
+                            <li class="aboutUs__item">
+                                <span class="aboutUs__year">2012</span>
+                                <p class="aboutUs__descr">Начало работы компании в&nbsp;сфере покупки-продажи авто</p>
+                            </li>
+                            <li class="aboutUs__item">
+                                <span class="aboutUs__year">2018</span>
+                                <p class="aboutUs__descr">Открытие первого автосервиса
+                                    (на партнерской основе)</p>
+                            </li>
+                            <li class="aboutUs__item">
+                                <span class="aboutUs__year">2020</span>
+                                <p class="aboutUs__descr">Открытие второго,
+                                    персонального автосервиса</p>
+                            </li>
+                            <li class="aboutUs__item">
+                                <span class="aboutUs__year">2024</span>
+                                <p class="aboutUs__descr">Объединение двух направлений
+                                    по продаже и ремонту авто</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> -->
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
